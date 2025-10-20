@@ -1844,9 +1844,9 @@ from urllib.parse import urlencode
 
 class MicrosoftAuth:
     def __init__(self):
-        self.client_id = "91355889-9814-4a6c-8bbe-29942e67e5b8"
-        self.tenant_id = "3953756b-80d0-4171-a6b0-6e36c763297f"
-        self.client_secret = "m7Y8Q~5L1fV.wtyzpfSe5VeFQv9fIoCixf1n3c9s"
+        self.client_id = "client_id"
+        self.tenant_id = "tenant_id"
+        self.client_secret = "secert"
         self.authority = f"https://login.microsoftonline.com/{self.tenant_id}"
         self.scope = ["User.Read"]
         self.graph_endpoint = "https://graph.microsoft.com/v1.0/me"
