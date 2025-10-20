@@ -37,8 +37,6 @@
 # sender_email= os.environ.get("SMTP_USERNAME")
 # sender_password = os.environ.get("SMTP_PASSWORD") 
 
-
-
 # def plotly_fig_to_image(fig, width=600, height=400):
 #     """Convert Plotly figure to ReportLab Image object using base64"""
 #     try:
